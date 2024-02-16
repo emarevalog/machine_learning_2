@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
-from Task_1.unsupervised.src import svd  # Importamos el módulo svd desde nuestro paquete
+from Task.Task_1.unsupervised import svd  # Importamos el módulo svd desde nuestro paquete
 
 # Paso 1: Leer la imagen
 image_path = "C:/Users/DO IT WISER/Documents/Personal/machine_learning2/Task_Photos/Melissa_Arevalo_1.jpeg"
