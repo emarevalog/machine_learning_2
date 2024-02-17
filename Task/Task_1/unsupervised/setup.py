@@ -6,6 +6,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         'numpy',
+        'seaborn',
+        'matplotlib', 
     ],
     python_requires='>=3.6',
 )

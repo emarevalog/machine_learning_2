@@ -1,5 +1,7 @@
 README.md
 setup.py
+Clusters/__init__.py
+Clusters/kmeans.py
 dim_red/PCA.py
 dim_red/SVD.py
 dim_red/__init__.py
