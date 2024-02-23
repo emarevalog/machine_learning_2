@@ -1,23 +1,7 @@
 import numpy as np
 
-def _compute_inertia(distances):
-    """Compute inertia of new samples. Inertia is defined as the sum of the
-    sample distances to closest cluster centers.
-
-    Parameters
-    ----------
-    distances : numpy.ndarray, shape=(n_samples, n_clusters)
-        Distances to cluster centers.
-
-    Returns
-    -------
-    float
-        Sum of sample distances to closest cluster centers.
-    """
-    return np.sum(np.min(distances, axis=1))
-
 class KMedoids:
-    def __init__(self, n_clusters=2, max_iter=300):
+    def __init__(self, n_clusters=2, max_iter=1000):
         self.n_clusters = n_clusters
         self.max_iter = max_iter
 
